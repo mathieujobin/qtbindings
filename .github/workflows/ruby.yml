@@ -14,6 +14,6 @@ jobs:
     - name: Install Package Dependencies
       uses: mstksg/get-package@v1
       with:
-        apt-get: ruby-dev libqt4-dev
+        apt-get: qtbase5-dev qtbase5-private-dev qtdeclarative5-dev qtpositioning5-dev qtscript5-dev qttools5-dev qtwebengine5-dev
     - name: Build and test with Rake
       run: rake
